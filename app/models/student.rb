@@ -3,7 +3,6 @@ class Student < ActiveRecord::Base
   def set_defaults
     self.active  ||= false
   end
-end 
 
   def to_s
     self.first_name + " " + self.last_name
